@@ -88,7 +88,7 @@ export default function StatusTool(request: Request) {
           "Expires": "0",
           "Permissions-Policy": "geolocation=(), microphone=(), camera=()",
           "X-UTNOR-Execution":"success",
-          'Server': 'UTNOR'
+          'X-Powered-By': 'UTNOR'
         },
       });
     }
