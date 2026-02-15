@@ -61,7 +61,7 @@ export default {
                     "Cache-Control": "public, max-age=86400",
                     "Access-Control-Allow-Headers": "*",
                     "X-UTNOR-Execution": "success",
-                    'Server': 'UTNOR'
+                    'X-Powered-By': 'UTNOR'
                 },
             });
         }
