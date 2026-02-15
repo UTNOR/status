@@ -55,7 +55,7 @@ export default function StatusTool(request: Request) {
       );
     }
 
-    const statusCode = parseInt(userInputRaw, 8);
+    const statusCode = parseInt(userInputRaw, 10);
     const isStatusCode = (statusCode >= 200 && statusCode <= 599);
 
     // Validate: must be valid HTTP status range
