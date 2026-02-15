@@ -47,7 +47,7 @@ export default class errorResponse extends Response {
     headers.set("Access-Control-Allow-Origin", "*");
     headers.set("Content-Security-Policy", "frame-ancestors 'none';");
     headers.set("Permissions-Policy", "geolocation=(), microphone=(), camera=()");
-    headers.set("Server", "UTNOR");
+    headers.set("X-Powered-By", "UTNOR");
     headers.set("X-UTNOR-Execution", "failure");
 
     const body = [
