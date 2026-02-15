@@ -26,9 +26,9 @@ UTNOR recommends **Cloudflare Workers** for running this tool. You can also depl
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com/utnor/status)
 
-[Deploy with Netlify](https://app.netlify.com/start/deploy?repository=https://github.com/utnor/status)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/utnor/status)
 
-> After deployment: 🚀 Visit the root of your domain (`/` or `/v1/`) with the proper syntax — it just works.
+> After deployment: Visit the root of your domain (`/`) with the proper syntax — it just works.
 
 ---
 
