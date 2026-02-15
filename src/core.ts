@@ -86,7 +86,9 @@ export default function StatusTool(request: Request) {
           "Cache-Control": "no-store, no-cache, must-revalidate, proxy-revalidate",
           "Pragma": "no-cache",
           "Expires": "0",
-          "Permissions-Policy": "geolocation=(), microphone=(), camera=()"
+          "Permissions-Policy": "geolocation=(), microphone=(), camera=()",
+          "X-UTNOR-Execution":"success",
+          'Server': 'UTNOR'
         },
       });
     }
