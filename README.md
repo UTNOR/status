@@ -2,8 +2,8 @@
 
 A lightweight HTTP status response utility for developers and OSS projects.
 
-Main website: [https://utnor.com](https://utnor.com)  
 Documentation: [https://docs.utnor.com/tools/status](https://docs.utnor.com/tools/status)
+Tool Website: [https://status.utnor.org?status=200](https://status.utnor.org?status=200)
 
 ---
 
