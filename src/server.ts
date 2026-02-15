@@ -59,7 +59,9 @@ export default {
                     "Access-Control-Allow-Methods": "GET, OPTIONS, HEAD",
                     "Access-Control-Max-Age": "86400",
                     "Cache-Control": "public, max-age=86400",
-                    "Access-Control-Allow-Headers": "*"
+                    "Access-Control-Allow-Headers": "*",
+                    "X-UTNOR-Execution": "success",
+                    'Server': 'UTNOR'
                 },
             });
         }
